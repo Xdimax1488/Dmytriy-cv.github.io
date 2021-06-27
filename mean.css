@@ -110,14 +110,11 @@ li{
 h1{
         font-size: 55px;
     }
-    .imeges ul {
-        padding-left: 0px;
-    }
-    .imeges li{
+.imeges li{
         font-size: 20px;
         width: 100%;
     }
-    .bolt-text{
+.bolt-text{
         display: flex;
         flex-direction: column;
         font-weight: bold;
@@ -184,12 +181,19 @@ h1{
 }
 @media screen and (max-width:550px){
     .bolt-text{
-        font-size: 10px;
+        font-size: 15px;
     }
     .nav li a{
+        padding: 10px;
         font-size: 10px;
     }
-    
+    .content-wrapper{
+        padding: 120px 0;
+    }
+    .header{
+        align-items: center;
+        flex-direction: column;
+    }
 
 
 }
