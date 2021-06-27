@@ -185,7 +185,7 @@ h1{
     }
     .nav li a{
         padding: 10px;
-        font-size: 10px;
+        font-size: 13px;
     }
     .content-wrapper{
         padding: 120px 0;
@@ -193,6 +193,12 @@ h1{
     .header{
         align-items: center;
         flex-direction: column;
+    }
+    .content-mean{
+        padding: 20px 5px 20px 20px;
+    }
+    .imges img{
+        width: 120px;
     }
 
 
